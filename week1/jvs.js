@@ -2824,7 +2824,7 @@ let hyf = [
 let curriculum = ["Project", "HTML-CSS", "Node.js", "databases", "JavaScript", "Git", "CommandLine", "React"];
 let curriculumList = document.createElement('ul'); //to make the left list
 document.body.appendChild(curriculumList);
-curriculumList.setAttribute('id', "curriculumList")
+curriculumList.setAttribute('id', "curriculumList") // to make an id for whole the lsft list
 let curriculumTitle = document.createElement('h1');
 curriculumList.appendChild(curriculumTitle);
 curriculumTitle.setAttribute('id', "curriculumTitle");
