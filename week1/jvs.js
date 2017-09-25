@@ -2838,6 +2838,7 @@ for (i in curriculum){
 
 let logo = document.createElement('img'); // to make the logo
 logo.setAttribute('src', hyf[1].owner.avatar_url);
+logo.setAttribute('alt', 'logo of Hack your future');
 logo.setAttribute('width', 200);
 curriculumList.appendChild(logo);
 
