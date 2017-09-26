@@ -1,0 +1,6 @@
+JavaScript processes all variable declarations before executing any code,
+whether the declaration is inside a conditional block or other construct.
+Once JavaScript has found all the variables, it executes the code in the function. 
+If a variable is implicitly declared inside a function - that is, 
+if it appears on the left side of an assignment expression but has not been declared with var - it is created as a global variable.
+According to: https://docs.microsoft.com/en-us/scripting/javascript/advanced/variable-scope-javascript
