@@ -1,3 +1,21 @@
+Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
+var x = 9; 
+function f1(val) { 
+    val = val+1; 
+    return val;
+}
+f1(x);
+console.log(x);
+
+
+var y = { x: 9 };
+function f2(val) {
+    val.x = val.x + 1;
+    return val;
+}
+f2(y);
+console.log(y);
+*************
 JavaScript processes all variable declarations before executing any code,
 whether the declaration is inside a conditional block or other construct.
 Once JavaScript has found all the variables, it executes the code in the function. 
