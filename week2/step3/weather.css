@@ -1,0 +1,68 @@
+body{
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+div{
+   display: flex;
+    flex-flow: column;
+    margin-left: 38%;
+    margin-top: 3%;
+    width: 20%;
+    border: 1px gray;
+    
+    box-shadow: 10px 10px 10px black;
+   
+}
+#invariable{
+    
+    font-size: 1.3em;
+    float: left;
+      
+}
+#variable{
+    float: right;
+    color:darksalmon;
+}
+p{
+  color:black;
+}
+input{
+   
+    width: 24%;
+    height: 7%;
+    background-color:antiquewhite;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+    border: 1px dashed black;
+    box-shadow: 10px 10px 10px black;
+}
+button{
+      background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 25%;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    div{
+        margin-left: 0;        
+    }
+    input{
+        margin-left: 0;
+        font-size: 20px;
+        width: 100%;
+    }
+    button{
+        margin-left: 0;
+    }
+}
