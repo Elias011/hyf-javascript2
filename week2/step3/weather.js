@@ -72,6 +72,6 @@ xReq.open('GET',nameCity);
     humidityValue.innerHTML = xData.main.humidity;  
     windSpeedValue.innerHTML = xData.wind.speed;
 };
- xReq.send(null);
+ xReq.send();
 }
  
