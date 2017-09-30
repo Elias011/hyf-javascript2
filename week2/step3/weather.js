@@ -17,7 +17,7 @@ document.body.appendChild(div);
 let name = document.createElement('p');
 div.appendChild(name);
 name.setAttribute ('id', "invariable");
-name.innerHTML = "Name of the city";
+name.innerHTML = "City Name";
 let nameValue = document.createElement('p');
 nameValue.setAttribute ('id', "variable");
 name.appendChild(nameValue);
