@@ -60,7 +60,7 @@ windSpeed.appendChild(windSpeedValue);
 
 button.onclick = function(){
     
-let nameCity = 'http://api.openweathermap.org/data/2.5/weather?q=' + city.value + '&appid=6d8108cde3bc437877134c8a14c900ad&units=metric'; // here get the name of the city and make from API a link to can get all the information weather for the city in the input box
+let nameCity = 'http://api.openweathermap.org/data/2.5/weather?q=' + city.value + '&appid=6d8108cde3bc437877134c8a14c900ad&units=metric'; // here get the city name and make from API a link to can get all the information weather for the city in the input box
     nameValue.innerHTML = city.value; // name of the city
     
 let xReq = new XMLHttpRequest();
