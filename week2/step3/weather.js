@@ -1,15 +1,13 @@
 
+let city = document.createElement('input'); // here you should enter your city
+document.body.appendChild(city);
+city.setAttribute('placeholder', 'Enter your city like: Amsterdam.NL'); //example in input box
 
 let button = document.createElement ('button'); //Seartch button
 document.body.appendChild(button);
 let seartch = document.createTextNode ('Search'); 
 button.appendChild(seartch);
 
-
- 
-let city = document.createElement('input'); // here you should enter your city
-document.body.appendChild(city);
-city.setAttribute('placeholder', 'Enter your city like: Amsterdam.NL'); //example in input box
 
 let div = document.createElement('div'); // this div can control all the information those are element p 
 document.body.appendChild(div);
@@ -74,4 +72,3 @@ xReq.open('GET',nameCity);
 };
  xReq.send();
 }
- 
