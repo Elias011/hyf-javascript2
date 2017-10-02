@@ -7,8 +7,10 @@ html {
      background-size: cover;
 }
 body{  
-    text-align: center;
+    display: flex;
     align-items: center;
+    flex-flow: column;
+    text-align: center;
     padding: 0px;
     margin: 0px;
 }
@@ -16,7 +18,6 @@ div{
    display: flex;
     flex-flow: column;
     width: 300px;
-    margin-left: 500px;
     margin-top: 10px;
     border: 1px gray;
     background: rgba(0, 0, 0, 0.5);
@@ -31,6 +32,8 @@ div{
 }
 p{
   color:white;
+  height: 40px ;
+  margin-top: 10px;    
 }
 input{
     width: 330px;
@@ -44,6 +47,7 @@ input{
 }
 button{
       background-color: gray; 
+    margin-top: 10px;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -53,10 +57,3 @@ button{
     font-size: 13px;
     box-shadow: 10px 10px 10px black;
 }
-
-@media only screen and (min-width:320px){
-    div{
-        margin-left: 300px;
-    }
-}
-
