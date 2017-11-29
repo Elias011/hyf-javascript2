@@ -1,7 +1,7 @@
 
 let city = document.createElement('input'); // here you should enter your city
 document.body.appendChild(city);
-city.setAttribute('placeholder', 'Enter your city like: Amsterdam.NL'); //example in input box
+city.setAttribute('placeholder', 'Enter your city like: Amsterdam, NL'); //example in input box
 
 let button = document.createElement ('button'); //Seartch button
 document.body.appendChild(button);
